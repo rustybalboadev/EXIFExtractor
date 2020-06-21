@@ -1,5 +1,4 @@
 import os
-from pprint import pprint
 from PIL import Image
 from PIL.ExifTags import TAGS, GPSTAGS
 from flask import Flask, render_template, request, flash, redirect, url_for
